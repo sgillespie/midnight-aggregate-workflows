@@ -1,0 +1,7 @@
+name: 'Midnight Aggregate Workflows'
+description: 'Aggregate workflow runs for key midnight repositories'
+inputs: {}
+outputs: {}
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
